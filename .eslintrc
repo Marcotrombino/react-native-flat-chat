@@ -1,0 +1,9 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+      "arrow-body-style": 0,
+      "max-len": 0,
+      "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": 0
+  }
+}
