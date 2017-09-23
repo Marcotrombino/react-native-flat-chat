@@ -18,7 +18,7 @@ A powerfull React Native chat component without external dependencies.
 - <b>Messages filters</b>: regex messages to avoid black-list words, spam, etc
 
 ## Installation
-- Using [npm](https://www.npmjs.com): `npm i --S react-native-flat-chat`
+- Using [npm](https://www.npmjs.com): `npm i -S react-native-flat-chat`
 
 ## Usage
 1. Import <b>`FlatChat`</b> component:
