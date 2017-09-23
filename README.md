@@ -3,7 +3,7 @@ A powerfull React Native chat component without external dependencies.
 ###### <i>N.B: FlatChat is still under development and it's not ready for production yet. Feel free to test it and contribute.
 ## Why choose FlatChat</i>
 
-- <b>Easy to use</b>: only need few lines to get started
+- <b>Easy to use</b>: it only needs few lines to get started
 - <b>No dependencies</b>: no third part component conflicts
 - <b>Rich documentation</b>: no struggle trying to make it works
 - <b>Elegant, clean and modern design</b>: no more old style chat, FlatChat uses a fresh design
@@ -68,7 +68,7 @@ export default class MyChatScene extends Component {
 Need more customization? You can find other useful examples [here](./example).
 
 ## FlatList `data` Array
-According to [official documentation](https://facebook.github.io/react-native/docs/flatlist.html#renderitem) a `FlatList` (which is implemented inside FlatChat) takes <i>items</i> from a `data` <b>array</b>.
+According to the [official documentation](https://facebook.github.io/react-native/docs/flatlist.html#renderitem) a `FlatList` (which is implemented inside FlatChat) takes <i>items</i> from a `data` <b>array</b>.
 <br>A `data` <i>item</i> is an <b>Object</b> with the following properties:
 
 ```js
@@ -84,7 +84,7 @@ According to [official documentation](https://facebook.github.io/react-native/do
 }
 ```
 
-<b>N.B</b>: FlatChat manages new messages with key `data.length` to make a <b>unique key</b>.
+<b>N.B</b>: FlatChat manages new messages with `data.length` as <b>unique key</b> (required by `FlatList`).
 <br>If you provide loaded messages inside <b>`state.data`</b> make sure they have progressive keys starting from `0`.
 
 ## API
