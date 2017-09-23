@@ -1,7 +1,7 @@
 
   /**@class FlatChat
    * @author: Marco Trombino
-   * @version: 1.0.0 Last update: 09-20-2017
+   * @version: 0.1.0 Last update: 09-23-2017
    * @see https://github.com/Marcotrombino/react-native-flat-chat
    * @license GPL-3.0
    * This program is free software: you can redistribute it and/or modify
@@ -329,7 +329,7 @@
              {/* InputContainer which contains the TextInput and the send button */}
              <InputBar
                 // key used for new message
-                  nextKey={this.state.data.length + 1}
+                  nextKey={this.state.data.length}
                 // onSend callback from parent
                 onSend={onSend}
              />
